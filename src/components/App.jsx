@@ -12,6 +12,9 @@ class App extends Component {
     page: 1,
   }
 
+
+
+  
   getInputValue = handleValue => {
     this.setState({ inputValue: handleValue, page: 1 })
   }
